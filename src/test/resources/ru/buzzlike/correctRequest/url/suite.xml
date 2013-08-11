@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM 'http://testng.org/testng-1.0.dtd'>
+
+<suite name = "TestUrl" verbose = "1">
+    <test name = "Test for url">
+
+        <classes>
+            <class name = "ru.buzzlike.correctRequest.url.TestUrl"/>
+            <class name = "ru.buzzlike.correctRequest.url.urlId.TestUrlId"/>
+
+        </classes>
+    </test>
+
+</suite>

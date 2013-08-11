@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM 'http://testng.org/testng-1.0.dtd'>
+
+<suite name = "TestAchieves" verbose = "1">
+    <test name = "Test for achieves">
+
+
+        <classes>
+            <class name = "ru.buzzlike.correctRequest.achieves.TestAchieves"/>
+        </classes>
+    </test>
+
+</suite>

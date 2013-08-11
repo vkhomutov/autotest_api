@@ -1,0 +1,47 @@
+<!DOCTYPE suite SYSTEM 'http://testng.org/testng-1.0.dtd'>
+
+<suite name = "TestCombos" verbose = "1">
+    <test name = "Test for combos">
+
+        <parameter name = "picIds" value = "&quot;picIds&quot;:[&quot;" />
+        <parameter name = "textIds" value = "&quot;textIds&quot;:[&quot;" />
+        <parameter name = "idCombs" value = "{&quot;id&quot;:&quot;" />
+        <parameter name = "tags" value = "&quot;tags&quot;:[]," />
+        <parameter name = "userId" value = "&quot;userId&quot;:&quot;" />
+        <parameter name = "timestamp" value = "&quot;timestamp&quot;:" />
+        <parameter name = "posts" value = "&quot;posts&quot;:[{&quot;socialNetwork&quot;:&quot;&quot;," />
+        <parameter name = "readyToSchedule" value = "&quot;readyToSchedule&quot;:false," />
+        <parameter name = "picComments" value = "&quot;picComments&quot;:null," />
+
+        <parameter name = "combsId" value = "/51ff75c3e4b0234685e448ac" />
+
+        <parameter name = "error" value = "&quot;err&quot;:null" />
+        <parameter name = "idText" value = "&quot;id&quot;:&quot;" />
+        <parameter name = "valueText" value = "&quot;value&quot;:&quot;" />
+        <parameter name = "localization" value = "&quot;localization&quot;:&quot;" />
+
+        <parameter name = "idImg" value = "&quot;id&quot;:&quot;" />
+        <parameter name = "fileName" value = "&quot;fileName&quot;:" />
+        <parameter name = "original" value = "&quot;original&quot;:" />
+        <parameter name = "thumbnail" value = "&quot;thumbnail&quot;:" />
+
+
+
+
+        <classes>
+            <class name = "ru.buzzlike.correctRequest.combos.TestCombos"/>
+            <class name = "ru.buzzlike.correctRequest.combos.combId.TestComboId" />
+            <class name = "ru.buzzlike.correctRequest.combos.combId.tags.TestTags" />
+            <class name = "ru.buzzlike.correctRequest.combos.combId.text.TestText" />
+            <class name = "ru.buzzlike.correctRequest.combos.combId.text.textId.TestTextId" />
+            <class name = "ru.buzzlike.correctRequest.combos.combId.images.TestImages" />
+            <class name = "ru.buzzlike.correctRequest.combos.combId.images.imageId.TestImageId" />
+            <class name = "ru.buzzlike.correctRequest.combos.combId.url.TestUrl" />
+            <class name = "ru.buzzlike.correctRequest.combos.combId.url.urlId.TestUrlId" />
+            <class name = "ru.buzzlike.correctRequest.combos.combId.preview.TestPreview" />
+            <class name = "ru.buzzlike.correctRequest.combos.combId.posts.TestPosts" />
+
+        </classes>
+    </test>
+
+</suite>

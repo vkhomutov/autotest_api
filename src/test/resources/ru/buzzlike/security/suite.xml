@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM 'http://testng.org/testng-1.0.dtd'>
+
+<suite name = "TestSimpleSecurity" verbose = "1">
+    <test name = "Test for simple security">
+
+        <parameter name = "filenamePathUrlForGet" value = "/src/test/resources/parameters/security/listUrlForGet" />
+        <parameter name = "filenamePathUrlForPost" value = "/src/test/resources/parameters/security/listUrlForPost" />
+        <parameter name = "filenamePathUrlForPut" value = "/src/test/resources/parameters/security/listUrlForPut" />
+        <parameter name = "filenamePathUrlForDelete" value = "/src/test/resources/parameters/security/listUrlForDelete" />
+
+        <classes>
+            <class name = "ru.buzzlike.security.TestSimpleSecurity"/>
+        </classes>
+    </test>
+
+</suite>

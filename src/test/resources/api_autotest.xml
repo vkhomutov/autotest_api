@@ -1,0 +1,31 @@
+<!DOCTYPE suite SYSTEM 'http://testng.org/testng-1.0.dtd'>
+
+<suite name = "Processing" verbose = "1">
+
+        <suite-files>
+            <suite-file path = "/ru/buzzlike/correctRequest/auth/suite.xml" />
+            <suite-file path = "/ru/buzzlike/correctRequest/combos/suite.xml" />
+            <suite-file path = "/ru/buzzlike/correctRequest/images/suite.xml" />
+            <suite-file path = "/ru/buzzlike/correctRequest/text/suite.xml" />
+            <suite-file path = "/ru/buzzlike/correctRequest/tags/suite.xml" />
+            <suite-file path = "/ru/buzzlike/correctRequest/register/suite.xml" />
+            <suite-file path = "/ru/buzzlike/correctRequest/url/suite.xml" />
+            <suite-file path = "/ru/buzzlike/correctRequest/schedule/suite.xml" />
+            <suite-file path = "/ru/buzzlike/correctRequest/notifications/suite.xml" />
+            <suite-file path = "/ru/buzzlike/correctRequest/achieves/suite.xml" />
+            <suite-file path = "/ru/buzzlike/correctRequest/community/suite.xml" />
+
+            <!--<suite-file path = "/ru/buzzlike/failRequest/failParameterInBody/suite.xml" />
+
+            <suite-file path = "/ru/buzzlike/security/suite.xml" />-->
+
+        </suite-files>
+
+        <parameter name = "url" value = "http://37.139.9.71:8082/back" />
+        <parameter name = "headerContentType" value = "Content-Type:application/x-www-form-urlencoded" />
+
+        <parameter name = "user" value = "autotester_2" />
+        <parameter name = "password" value = "tester_2" />
+        <parameter name = "userYuriy" value = "yuriy" />
+        <parameter name = "passwordYuriy" value = "yuriy" />
+</suite>

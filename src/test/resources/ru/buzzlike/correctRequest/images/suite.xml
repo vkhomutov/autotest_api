@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM 'http://testng.org/testng-1.0.dtd'>
+
+<suite name = "TestImages" verbose = "1">
+    <test name = "Test for images">
+
+        <parameter name = "error" value = "&quot;err&quot;:null" />
+        <parameter name = "idImg" value = "&quot;id&quot;:&quot;" />
+        <parameter name = "fileName" value = "&quot;fileName&quot;:" />
+        <parameter name = "original" value = "&quot;original&quot;:" />
+        <parameter name = "thumbnail" value = "&quot;thumbnail&quot;:" />
+        <parameter name = "upLoad" value = "upLoad" />
+
+        <parameter name = "idImage" value = "51ff755ae4b0234685e448a7" />
+
+        <classes>
+            <class name = "ru.buzzlike.correctRequest.images.TestImages"/>
+            <class name = "ru.buzzlike.correctRequest.images.imageId.TestImagesId" />
+        </classes>
+    </test>
+
+</suite>

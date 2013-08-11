@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM 'http://testng.org/testng-1.0.dtd'>
+
+<suite name = "TestNotifications" verbose = "1">
+    <test name = "Test for notifications">
+
+
+        <classes>
+            <class name = "ru.buzzlike.correctRequest.notifications.TestNotifications"/>
+        </classes>
+    </test>
+
+</suite>

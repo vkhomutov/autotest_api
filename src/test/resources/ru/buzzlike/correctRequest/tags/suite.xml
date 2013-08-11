@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM 'http://testng.org/testng-1.0.dtd'>
+
+<suite name = "TestTags" verbose = "1">
+    <test name = "Test for tags">
+
+        <classes>
+            <class name = "ru.buzzlike.correctRequest.tags.TestTags"/>
+
+
+        </classes>
+    </test>
+
+</suite>

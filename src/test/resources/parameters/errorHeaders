@@ -1,0 +1,44 @@
+Accept:text/son,Authorization:Basic MjEzOTI0OjBMMkoyVUE4UFoyTUoxOQ==,Content-Type:application/x-www-form-urlencoded; charset=utf-8,300,Wrong format of 'Accept' header
+Accept:text-json,Authorization:Basic MjEzOTI0OjBMMkoyVUE4UFoyTUoxOQ==,Content-Type:application/x-www-form-urlencoded; charset=utf-8,300,Wrong format of 'Accept' header
+Accept:123,Authorization:Basic MjEzOTI0OjBMMkoyVUE4UFoyTUoxOQ==,Content-Type:application/x-www-form-urlencoded; charset=utf-8,300,Wrong format of 'Accept' header
+Accept:text+json,Authorization:Basic MjEzOTI0OjBMMkoyVUE4UFoyTUoxOQ==,Content-Type:application/x-www-form-urlencoded; charset=utf-8,300,Wrong format of 'Accept' header
+Accept:text\json,Authorization:Basic MjEzOTI0OjBMMkoyVUE4UFoyTUoxOQ==,Content-Type:application/x-www-form-urlencoded; charset=utf-8,300,Wrong format of 'Accept' header
+Accept:text56json,Authorization:Basic MjEzOTI0OjBMMkoyVUE4UFoyTUoxOQ==,Content-Type:application/x-www-form-urlencoded; charset=utf-8,300,Wrong format of 'Accept' header
+Accept:tex-json,Authorization:Basic MjEzOTI0OjBMMkoyVUE4UFoyTUoxOQ==,Content-Type:application/x-www-form-urlencoded; charset=utf-8,300,Wrong format of 'Accept' header
+Accept:text/json;,Authorization:Basic MjEzOTI0OjBMMkoyVUE4UFoyTUoxOQ==,Content-Type:application/x-www-form-urlencoded; charset=utf-8,300,Wrong format of 'Accept' header
+Accept:=text/json,Authorization:Basic MjEzOTI0OjBMMkoyVUE4UFoyTUoxOQ==,Content-Type:application/x-www-form-urlencoded; charset=utf-8,300,Wrong format of 'Accept' header
+Accept:text/json-,Authorization:Basic MjEzOTI0OjBMMkoyVUE4UFoyTUoxOQ==,Content-Type:application/x-www-form-urlencoded; charset=utf-8,300,Wrong format of 'Accept' header
+Accept:TEXT/json,Authorization:Basic MjEzOTI0OjBMMkoyVUE4UFoyTUoxOQ==,Content-Type:application/x-www-form-urlencoded; charset=utf-8,300,Wrong format of 'Accept' header
+Accept:text/JSON,Authorization:Basic MjEzOTI0OjBMMkoyVUE4UFoyTUoxOQ==,Content-Type:application/x-www-form-urlencoded; charset=utf-8,300,Wrong format of 'Accept' header
+Accept:TEXT/JSON,Authorization:Basic MjEzOTI0OjBMMkoyVUE4UFoyTUoxOQ==,Content-Type:application/x-www-form-urlencoded; charset=utf-8,300,Wrong format of 'Accept' header
+AccEpt:tExt/jsoN,Authorization:Basic MjEzOTI0OjBMMkoyVUE4UFoyTUoxOQ==,Content-Type:application/x-www-form-urlencoded; charset=utf-8,300,Wrong format of 'Accept' header
+Accept:tеxt/json,Authorization:Basic MjEzOTI0OjBMMkoyVUE4UFoyTUoxOQ==,Content-Type:application/x-www-form-urlencoded; charset=utf-8,300,Wrong format of 'Accept' header
+Accept:text/jsоn,Authorization:Basic MjEzOTI0OjBMMkoyVUE4UFoyTUoxOQ==,Content-Type:application/x-www-form-urlencoded; charset=utf-8,300,Wrong format of 'Accept' header
+Accept:text/json,Authorization:MjEzOTI0OjBMMkoyVUE4UFoyTUoxOQ==,Content-Type:application/x-www-form-urlencoded; charset=utf-8,150,Authorization failed
+Accept:text/json,Authorization:Basic MjEzOTI0OjBMMkoyVUE4UFoyTUoxOQ,Content-Type:application/x-www-form-urlencoded; charset=utf-8,150,Authorization failed
+Accept:text/json,Autization:Basic MjEzOTI0OjBMMkoyVUE4UFoyTUoxOQ==,Content-Type:application/x-www-form-urlencoded; charset=utf-8,150,Authorization failed
+Accept:text/json,uthorization:Basic MjEzOTI0OjBMMkoyVUE4UFoyTUoxOQ,Content-Type:application/x-www-form-urlencoded; charset=utf-8,150,Authorization failed
+Accept:text/json,Authorization-:Basic MjEzOTI0OjBMMkoyVUE4UFoyTUoxOQ==,Content-Type:application/x-www-form-urlencoded; charset=utf-8,150,Authorization failed
+Accept:text/json,Authorization=:Basic MjEzOTI0OjBMMkoyVUE4UFoyTUoxOQ==,Content-Type:application/x-www-form-urlencoded; charset=utf-8,150,Authorization failed
+Accept:text/json,Authorization;:Basic MjEzOTI0OjBMMkoyVUE4UFoyTUoxOQ==,Content-Type:application/x-www-form-urlencoded; charset=utf-8,150,Authorization failed
+Accept:text/json,Authorization-:=Basic MjEzOTI0OjBMMkoyVUE4UFoyTUoxOQ==,Content-Type:application/x-www-form-urlencoded; charset=utf-8,150,Authorization failed
+Accept:text/json,Authorization:БЫДЫЩ MjEzOTI0OjBMMkoyVUE4UFoyTUoxOQ==,Content-Type:application/x-www-form-urlencoded; charset=utf-8,150,Authorization failed
+Accept:text/json,Authorization:Basic MjEzOTI0Oj123koyVUE4UFoyTUoxOQ==,Content-Type:application/x-www-form-urlencoded; charset=utf-8,150,Authorization failed
+Accept:text/json,Аuthorization:Basic MjEzOTI0OjBMMkoyVUE4UFoyTUoxOQ==,Content-Type:application/x-www-form-urlencoded; charset=utf-8,300,Wrong format of 'Accept' header
+Accept:text/json,Authorization:Bаsic MjEzOTI0OjBMMkoyVUE4UFoyTUoxOQ==,Content-Type:application/x-www-form-urlencoded; charset=utf-8,150,Authorization failed
+Accept:text/json,Authorization:Basiс MjEzOTI0OjBMMопаVUE4UFoyTUoxOQ==,Content-Type:application/x-www-form-urlencoded; charset=utf-8,150,Authorization failed
+Accept:text/json,Authorizatiоооn:Basic MjEzOTI0OjBMMkoyVUE4UFoyTUoxOQ==,Content-Type:application/x-www-form-urlencoded; charset=utf-8,150,Authorization failed
+Accept:text/json,Authorгггггization:Basic MjEzOTI0OjBMMkoyVUE4UFoyTUoxOQ==,Content-Type:application/x-www-form-urlencoded; charset=utf-8,150,Authorization failed
+Accept:text/json,123Authorization:Basic MjEzOTI0OjBMMkoyVUE4UFoyTUoxOQ==,Content-Type:application/x-www-form-urlencoded; charset=utf-8,150,Authorization failed
+Accept:text/json,Authozation:Basic MjEzOTI0OjBMMkoyVUE4UFoyTUoxOQ==,Content-Type:application/x-www-form-urlencoded; charset=utf-8,150,Authorization failed
+Accept:text/json,Autho123rization:Basic MjEzOTI0OjBMMkoyVUE4UFoyTUoxOQ==,Content-Type:application/x-www-form-urlencoded; charset=utf-8,150,Authorization failed
+Accept:text/json,Authorization123:Basic MjEzOTI0OjBMMkoyVUE4UFoyTUoxOQ==,Content-Type:application/x-www-form-urlencoded; charset=utf-8,150,Authorization failed
+Accept:text/json,Authorization:123Basic MjEzOTI0OjBMMkoyVUE4UFoyTUoxOQ==,Content-Type:application/x-www-form-urlencoded; charset=utf-8,150,Authorization failed
+Accept:text/json,Authorization:Basic MjA0M123dXBlcnNlY3JldA==,Content-Type:application/x-www-form-urlencoded; charset=utf-8,150,Authorization failed
+Accept:text/json,Authorization!:Basic MjA0MjpzdXBlcnNlY3JldA==,Content-Type:application/x-www-form-urlencoded; charset=utf-8,150,Authorization failed
+Accept:text/json,Authorization=:Basic MjA0MjpzdXBlcnNlY3JldA==,Content-Type:application/x-www-form-urlencoded; charset=utf-8,150,Authorization failed
+Accept:text/json,Authorization-:Basic MjA0MjpzdXBlcnNlY3JldA==,Content-Type:application/x-www-form-urlencoded; charset=utf-8,150,Authorization failed
+Accept:text/json,Authorization\:Basic MjA0MjpzdXBlcnNlY3JldA==,Content-Type:application/x-www-form-urlencoded; charset=utf-8,150,Authorization failed
+Accept:text/json,Authorization:Basic=MjA0MjpzdXBlcnNlY3JldA==,Content-Type:application/x-www-form-urlencoded; charset=utf-8,150,Authorization failed
+Accept:text/json,Authorization:Basic\MjA0MjpzdXBlcnNlY3JldA==,Content-Type:application/x-www-form-urlencoded; charset=utf-8,150,Authorization failed
+Accept:text/json,Authorization:Basic-MjA0MjpzdXBlcnNlY3JldA==,Content-Type:application/x-www-form-urlencoded; charset=utf-8,150,Authorization failed

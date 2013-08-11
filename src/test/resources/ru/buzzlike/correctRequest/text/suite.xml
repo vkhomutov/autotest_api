@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM 'http://testng.org/testng-1.0.dtd'>
+
+<suite name = "TestText" verbose = "1">
+    <test name = "Test for text">
+
+        <parameter name = "error" value = "&quot;err&quot;:null" />
+        <parameter name = "idText" value = "&quot;id&quot;:&quot;" />
+        <parameter name = "valueText" value = "&quot;value&quot;:&quot;" />
+        <parameter name = "localization" value = "&quot;localization&quot;:&quot;" />
+        <parameter name = "userId" value = "&quot;userId&quot;:&quot;" />
+
+        <parameter name = "textId" value = "51ff75cae4b0234685e448ad" />
+
+        <classes>
+            <class name = "ru.buzzlike.correctRequest.text.TestText"/>
+            <class name = "ru.buzzlike.correctRequest.text.textId.TestTextId"/>
+
+        </classes>
+    </test>
+
+</suite>

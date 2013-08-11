@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM 'http://testng.org/testng-1.0.dtd'>
+
+<suite name = "TestFailParametersInBody" verbose = "1">
+    <test name = "Test for fail parameters in body">
+
+
+        <parameter name = "filenamePathFailLoginAndPass" value = "/src/test/resources/parameters/create/listFailLoginAndPass" />
+        <parameter name = "filenamePathFailParameterForCombs" value = "/src/test/resources/parameters/create/listFailParameterForCombs" />
+        <parameter name = "filenamePathFailTagsForCombs" value = "/src/test/resources/parameters/create/listFailTagsForCombs" />
+        <parameter name = "filenamePathFailCombId" value = "/src/test/resources/parameters/create/listFailCombId" />
+        <parameter name = "filenamePathFailUploadedFile" value = "/src/test/resources/parameters/create/listFailUploadedFile" />
+        <parameter name = "filenamePathFailText" value = "/src/test/resources/parameters/create/listFailText" />
+        <parameter name = "filenamePathFailParametersForRegistration" value = "/src/test/resources/parameters/create/listFailParametersForRegistration" />
+        <parameter name = "filenamePathFailParametersForRegisterVerify" value = "/src/test/resources/parameters/create/listFailParametersForRegisterVerify" />
+        <parameter name = "filenamePathFailNotification" value = "/src/test/resources/parameters/create/listFailNotification" />
+        <parameter name = "filenamePathFailUser" value = "/src/test/resources/parameters/create/listFailUser" />
+        <parameter name = "filenamePathFailIdForAchieves" value = "/src/test/resources/parameters/create/listFailIdForAchieves" />
+
+        <classes>
+            <class name = "ru.buzzlike.failRequest.failParameterInBody.TestFailParameterInBody"/>
+        </classes>
+    </test>
+
+</suite>

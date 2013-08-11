@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM 'http://testng.org/testng-1.0.dtd'>
+
+<suite name = "TestSchedule" verbose = "1">
+    <test name = "Test for schedule">
+
+        <classes>
+            <class name = "ru.buzzlike.correctRequest.schedule.TestSchedule"/>
+
+
+        </classes>
+    </test>
+
+</suite>

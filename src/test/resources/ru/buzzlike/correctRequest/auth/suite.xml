@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM 'http://testng.org/testng-1.0.dtd'>
+
+<suite name = "TestAuth" verbose = "1">
+    <test name = "Test for auth">
+
+
+        <parameter name = "userId" value = "&quot;userId&quot;:&quot;520148e2e4b0234685e448bd&quot;" />
+        <parameter name = "systemRole" value = "&quot;systemRole&quot;:&quot;ROLE_WHAT_BOY&quot;" />
+        <parameter name = "firstName" value ="&quot;firstName&quot;:null" />
+        <parameter name = "lastName" value ="&quot;lastName&quot;:null" />
+        <parameter name = "authParameter" value = "&quot;authenticated&quot;:true" />
+        <parameter name = "error" value = "&quot;err&quot;:null" />
+        <parameter name = "dataNull" value = "&quot;data&quot;:null" />
+
+
+
+          <parameter name = "filenamePathFailSocialNetwork" value = "/src/test/resources/parameters/create/listFailSocialNetwork" />
+
+         <classes>
+            <class name = "ru.buzzlike.correctRequest.auth.TestAuth"/>
+        </classes>
+    </test>
+
+</suite>
